@@ -1,0 +1,25 @@
+public class prime nuumbers
+{
+public static void main(string[]args)
+{
+system.out print("prime numbers between 1 and 100:");
+for (intnum=2;num<=100;num+)
+{
+if( is prime(1))
+{
+ststem.out.print(1+"");
+}
+}
+}
+public static boolean is prime(int num)
+{
+if(num<2)
+retuen false;
+for (int i=2;i<math.sqrt(num);i++)
+{
+if (num%i=0)
+return false;
+}
+return true;
+}
+}
