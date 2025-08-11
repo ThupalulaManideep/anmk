@@ -10,7 +10,7 @@ public class Strong {
             fact *= i;
         }
         return fact;
-    }
+    }java
 
     // Function to check if a number is a strong number
     public static boolean isStrongNumber(int number) {
